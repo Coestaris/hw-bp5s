@@ -23,3 +23,29 @@ flowchart LR
 ## Working with the design
 
 Clone this repository and run `git lfs pull` before opening the KiCad project. The native design and its required assets are included here. Maintainer automation uses the pinned private `infra` submodule; see [development and release tooling](docs/development.md).
+
+## Board renders and releases
+
+### Rev1
+
+[Published rev1 release](https://github.com/Coestaris/hw-bp5s/releases/tag/rev1). The release workflow passed the complete gate and manufacturing export.
+
+![Rev1 board, perspective view](docs/images/rev1-perspective.png)
+
+<details>
+<summary>Top and bottom views</summary>
+
+![Rev1 board, top view](docs/images/rev1-top.png)
+
+![Rev1 board, bottom view](docs/images/rev1-bottom.png)
+
+</details>
+
+| File | Download |
+| --- | --- |
+| Schematic PDF | [bp5s-schematic.pdf](https://github.com/Coestaris/hw-bp5s/releases/download/rev1/bp5s-schematic.pdf) |
+| PCB PDF | [bp5s-pcb.pdf](https://github.com/Coestaris/hw-bp5s/releases/download/rev1/bp5s-pcb.pdf) |
+| Gerbers and drill files | [bp5s-gerbers.zip](https://github.com/Coestaris/hw-bp5s/releases/download/rev1/bp5s-gerbers.zip) |
+| JLCPCB BOM | [bp5s-jlcpcb-bom.csv](https://github.com/Coestaris/hw-bp5s/releases/download/rev1/bp5s-jlcpcb-bom.csv) |
+| JLCPCB placement | [bp5s-jlcpcb-pnp.csv](https://github.com/Coestaris/hw-bp5s/releases/download/rev1/bp5s-jlcpcb-pnp.csv) |
+| 3D assembly model | [bp5s.stpz](https://github.com/Coestaris/hw-bp5s/releases/download/rev1/bp5s.stpz) |
