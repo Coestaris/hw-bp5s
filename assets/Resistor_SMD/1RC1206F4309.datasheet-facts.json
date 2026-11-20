@@ -1,0 +1,287 @@
+{
+  "categories": [
+    "resistor"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 2,
+          "section": "How To Order: 1 RC 1206 F 4309"
+        }
+      ],
+      "family_members": [
+        "1RC1206F4309"
+      ],
+      "package_variant": "1206 RC thick-film",
+      "requested_mpn": "1RC1206F4309",
+      "status": "family"
+    },
+    "manufacturer": "SAE / SHI MENG ELECTRONIC CO., LTD.",
+    "pages": 13,
+    "path": "1RC1206F4309.pdf",
+    "sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2"
+  },
+  "extracted_at": "2026-10-08T18:33:31.117638+00:00",
+  "extractor_version": "manual-bp5s-1",
+  "family": "RC thick-film chip resistor",
+  "manufacturer": "SAE",
+  "missing": [
+    "No numeric terminal identifiers are provided for the symmetric two-terminal resistor.",
+    "The catalog uses manufacturer SAE while the linked family PDF names SHI MENG ELECTRONIC CO., LTD.; the exact alias relationship is not stated in the PDF.",
+    "Pulse-energy and board-level thermal limits are not specified for this exact order code."
+  ],
+  "mpn": "1RC1206F4309",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "1RC1206F4309"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 3,
+          "section": "Ratings & Dimension 1206 column"
+        }
+      ],
+      "exposed_pad": false,
+      "manufacturer_name": "1206 (3216 metric)",
+      "pin_count": 2,
+      "thermal_pad": false
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 90,
+    "category_specs": 85,
+    "evidence": 90,
+    "identity": 80,
+    "overall": 82,
+    "pinout": 80
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 2,
+          "section": "How To Order: 4309 resistance code"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "nominal_resistance",
+      "typ": 43,
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 2,
+          "section": "How To Order: F tolerance code"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1,
+      "min": -1,
+      "name": "resistance_tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 70
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 3,
+          "section": "Ratings & Dimension 1206 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.25,
+      "name": "rated_power",
+      "unit": "W"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 3,
+          "section": "Ratings & Dimension 1206 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 200,
+      "name": "maximum_working_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 3,
+          "section": "Ratings & Dimension 1206 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 400,
+      "name": "maximum_overload_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 3,
+          "section": "Ratings & Dimension 1206 column"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 500,
+      "name": "dielectric_withstand_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 3,
+          "section": "Ratings & Dimension"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 155,
+      "min": -55,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 5,
+          "section": "Performance Specification: 1206 >10 ohm"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 100,
+      "name": "temperature_coefficient_magnitude",
+      "unit": "ppm/degC"
+    },
+    {
+      "classification": "package_mechanical_limit",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 3,
+          "section": "Ratings & Dimension 1206 L"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 3.25,
+      "min": 2.95,
+      "name": "body_length",
+      "typ": 3.1,
+      "unit": "mm"
+    },
+    {
+      "classification": "package_mechanical_limit",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 3,
+          "section": "Ratings & Dimension 1206 W"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1.7,
+      "min": 1.45,
+      "name": "body_width",
+      "typ": 1.55,
+      "unit": "mm"
+    },
+    {
+      "classification": "package_mechanical_limit",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "0f19d18031417320b62749f902a91ac57351c14c9defc0b1583332a3890904c2",
+          "method": "table",
+          "page": 3,
+          "section": "Ratings & Dimension 1206 H"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.65,
+      "min": 0.45,
+      "name": "body_height",
+      "typ": 0.55,
+      "unit": "mm"
+    }
+  ],
+  "status": "active",
+  "warnings": [
+    "The PDF is a family datasheet; part-code applicability is based on its 1RC1206F4309 ordering pattern and LCSC linking this PDF to C54532880."
+  ]
+}

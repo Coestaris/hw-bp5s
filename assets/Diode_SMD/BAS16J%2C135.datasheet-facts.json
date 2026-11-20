@@ -1,0 +1,325 @@
+{
+  "categories": [
+    "diode"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 1,
+          "section": "Device or series identification"
+        }
+      ],
+      "family_members": [
+        "BAS16J,135"
+      ],
+      "package_variant": "SC-90 (SOD323F)",
+      "requested_mpn": "BAS16J,135",
+      "status": "family"
+    },
+    "manufacturer": "Nexperia",
+    "pages": 8,
+    "path": "BAS16J%2C135.pdf",
+    "sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387"
+  },
+  "extracted_at": "2026-10-08T17:05:44.904893+00:00",
+  "extractor_version": "manual-bp5s-1",
+  "family": "BAS16J",
+  "manufacturer": "Nexperia",
+  "missing": [
+    "Order suffix ,135 is not separately decoded in this device-level PDF; packaging applicability needs orderable-code confirmation.",
+    "No manufacturer SPICE model is identified."
+  ],
+  "mpn": "BAS16J,135",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "BAS16J,135"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 2,
+          "section": "Package outline"
+        }
+      ],
+      "exposed_pad": false,
+      "manufacturer_name": "SC-90 (SOD323F)",
+      "pin_count": 2,
+      "thermal_pad": false
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 1,
+          "section": "Table 2 Pinning information"
+        }
+      ],
+      "functions": [
+        "K"
+      ],
+      "name": "K",
+      "numbers": [
+        "1"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 1,
+          "section": "Table 2 Pinning information"
+        }
+      ],
+      "functions": [
+        "A"
+      ],
+      "name": "A",
+      "numbers": [
+        "2"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 90,
+    "identity": 90,
+    "overall": 80,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 2,
+          "section": "Table 5 Limiting values"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 100,
+      "name": "reverse_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 2,
+          "section": "Table 5 Limiting values"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 250,
+      "name": "forward_current",
+      "unit": "mA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "pulse_duration",
+          "unit": "us",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 2,
+          "section": "Table 5 Limiting values"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 4,
+      "name": "peak_forward_surge_current",
+      "unit": "A"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 2,
+          "section": "Table 5 Limiting values"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 550,
+      "name": "power_dissipation",
+      "unit": "mW"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 2,
+          "section": "Table 5 Limiting values"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "name": "junction_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "mA",
+          "value": 10
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 3,
+          "section": "Table 7 Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.855,
+      "name": "forward_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "reverse_voltage",
+          "unit": "V",
+          "value": 80
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 3,
+          "section": "Table 7 Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.5,
+      "name": "reverse_leakage",
+      "unit": "uA"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "reverse_voltage",
+          "unit": "V",
+          "value": 0
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 3,
+          "section": "Table 7 Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1.5,
+      "name": "junction_capacitance",
+      "unit": "pF"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "mA",
+          "value": 10
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 3,
+          "section": "Table 7 Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 4,
+      "name": "reverse_recovery_time",
+      "unit": "ns"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b6a79b731232fae2ad788a683f8f727ef8559182c1d7a9629d4b53e9d595c387",
+          "method": "table",
+          "page": 2,
+          "section": "Table 6 Thermal characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 230,
+      "name": "thermal_resistance_junction_ambient",
+      "unit": "K/W"
+    }
+  ],
+  "status": "active",
+  "warnings": []
+}

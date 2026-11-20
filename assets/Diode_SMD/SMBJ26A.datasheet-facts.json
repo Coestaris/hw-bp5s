@@ -1,0 +1,245 @@
+{
+  "categories": [
+    "diode"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 1,
+          "section": "Device or series identification"
+        }
+      ],
+      "family_members": [
+        "SMBJ26A"
+      ],
+      "package_variant": "DO-214AA (SMB)",
+      "requested_mpn": "SMBJ26A",
+      "status": "exact"
+    },
+    "manufacturer": "Littelfuse",
+    "pages": 6,
+    "path": "SMBJ26A.pdf",
+    "sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b"
+  },
+  "extracted_at": "2026-10-08T17:05:44.904893+00:00",
+  "extractor_version": "manual-bp5s-1",
+  "family": "SMBJ",
+  "manufacturer": "Littelfuse",
+  "missing": [
+    "The PDF shows cathode band/polarity but does not designate numeric terminal numbers.",
+    "No part-specific junction-capacitance value or SPICE model is identified."
+  ],
+  "mpn": "SMBJ26A",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "SMBJ26A"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 4,
+          "section": "Package outline"
+        }
+      ],
+      "exposed_pad": false,
+      "manufacturer_name": "DO-214AA (SMB)",
+      "pin_count": 2,
+      "thermal_pad": false
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 90,
+    "identity": 90,
+    "overall": 80,
+    "pinout": 50
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics SMBJ26A row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 26,
+      "name": "reverse_standoff_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "test_current",
+          "unit": "mA",
+          "value": 1
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics SMBJ26A row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 31.9,
+      "min": 28.9,
+      "name": "breakdown_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "peak_pulse_current",
+          "unit": "A",
+          "value": 14.3
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics SMBJ26A row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 42.1,
+      "name": "clamping_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics SMBJ26A row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 14.3,
+      "name": "peak_pulse_current",
+      "unit": "A"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "reverse_voltage",
+          "unit": "V",
+          "value": 26
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical characteristics SMBJ26A row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1,
+      "name": "reverse_leakage",
+      "unit": "uA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "pulse_waveform",
+          "unit": "us",
+          "value": 1000
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 600,
+      "name": "peak_pulse_power",
+      "unit": "W"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "min": -65,
+      "name": "junction_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "thermal_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "d7df155be4b1f612085401e8c946f065e284d65a0e7de22b9225a7b73946e51b",
+          "method": "table",
+          "page": 1,
+          "section": "Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "thermal_resistance_junction_ambient",
+      "typ": 100,
+      "unit": "degC/W"
+    }
+  ],
+  "status": "active",
+  "warnings": []
+}

@@ -1,0 +1,588 @@
+{
+  "categories": [
+    "mosfet"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Device or series identification"
+        }
+      ],
+      "family_members": [
+        "CSD18534Q5A"
+      ],
+      "package_variant": "Q5A VSONP-8 (DQJ)",
+      "requested_mpn": "CSD18534Q5A",
+      "status": "exact"
+    },
+    "manufacturer": "Texas Instruments",
+    "pages": 13,
+    "path": "CSD18534Q5A.pdf",
+    "sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c"
+  },
+  "extracted_at": "2026-10-08T17:07:18.054772+00:00",
+  "extractor_version": "manual-bp5s-1",
+  "family": "CSD18534Q5A",
+  "manufacturer": "Texas Instruments",
+  "missing": [
+    "Junction-to-ambient thermal resistance is specified on a large 2-oz copper test pad and must be re-evaluated on the BP5S board.",
+    "No exact 3D model is included in this PDF; TI links external CAD."
+  ],
+  "mpn": "CSD18534Q5A",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "CSD18534Q5A"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 9,
+          "section": "Package outline"
+        }
+      ],
+      "exposed_pad": false,
+      "manufacturer_name": "Q5A VSONP-8 (DQJ)",
+      "pin_count": 8,
+      "thermal_pad": false
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Top view pinout"
+        }
+      ],
+      "functions": [
+        "S"
+      ],
+      "name": "S",
+      "numbers": [
+        "1"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Top view pinout"
+        }
+      ],
+      "functions": [
+        "S"
+      ],
+      "name": "S",
+      "numbers": [
+        "2"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Top view pinout"
+        }
+      ],
+      "functions": [
+        "S"
+      ],
+      "name": "S",
+      "numbers": [
+        "3"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Top view pinout"
+        }
+      ],
+      "functions": [
+        "G"
+      ],
+      "name": "G",
+      "numbers": [
+        "4"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Top view pinout"
+        }
+      ],
+      "functions": [
+        "D"
+      ],
+      "name": "D",
+      "numbers": [
+        "5"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Top view pinout"
+        }
+      ],
+      "functions": [
+        "D"
+      ],
+      "name": "D",
+      "numbers": [
+        "6"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Top view pinout"
+        }
+      ],
+      "functions": [
+        "D"
+      ],
+      "name": "D",
+      "numbers": [
+        "7"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Top view pinout"
+        }
+      ],
+      "functions": [
+        "D"
+      ],
+      "name": "D",
+      "numbers": [
+        "8"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 90,
+    "identity": 90,
+    "overall": 80,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 60,
+      "name": "drain_source_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 20,
+      "min": -20,
+      "name": "gate_source_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 50,
+      "name": "continuous_drain_current_package",
+      "unit": "A"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 25
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 13,
+      "name": "continuous_drain_current_ambient",
+      "unit": "A"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 229,
+      "name": "pulsed_drain_current",
+      "unit": "A"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 3.1,
+      "name": "power_dissipation_ambient",
+      "unit": "W"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "min": -55,
+      "name": "junction_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "A",
+          "value": 40
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 1,
+          "section": "Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 80,
+      "name": "avalanche_energy_single_pulse",
+      "unit": "mJ"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 4.5
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 4,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 12.4,
+      "name": "rds_on_4v5",
+      "typ": 9.9,
+      "unit": "mohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "gate_source_voltage",
+          "unit": "V",
+          "value": 10
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 4,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 9.8,
+      "name": "rds_on_10v",
+      "typ": 7.8,
+      "unit": "mohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "drain_current",
+          "unit": "uA",
+          "value": 250
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 4,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 2.3,
+      "min": 1.5,
+      "name": "gate_threshold_voltage",
+      "typ": 1.9,
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 4,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 22,
+      "name": "gate_charge_10v",
+      "typ": 17,
+      "unit": "nC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "source_drain_current",
+          "unit": "A",
+          "value": 14
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 4,
+          "section": "Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1,
+      "name": "body_diode_forward_voltage",
+      "typ": 0.8,
+      "unit": "V"
+    },
+    {
+      "classification": "thermal_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 4,
+          "section": "Thermal Information"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 50,
+      "name": "thermal_resistance_junction_ambient",
+      "unit": "degC/W"
+    },
+    {
+      "classification": "package_mechanical_limit",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 9,
+          "section": "Q5A Package Dimensions D1"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 5.0,
+      "min": 4.8,
+      "name": "body_length",
+      "typ": 4.9,
+      "unit": "mm"
+    },
+    {
+      "classification": "package_mechanical_limit",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 9,
+          "section": "Q5A Package Dimensions E"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 6.1,
+      "min": 5.9,
+      "name": "body_width",
+      "typ": 6.0,
+      "unit": "mm"
+    },
+    {
+      "classification": "package_mechanical_limit",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "ad80ea659a391eb4c674b2422eec6a2782ceb5ad151892778e5d7a0853d8fc2c",
+          "method": "table",
+          "page": 9,
+          "section": "Q5A Package Dimensions A"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1.1,
+      "min": 0.9,
+      "name": "body_height",
+      "typ": 1.0,
+      "unit": "mm"
+    }
+  ],
+  "status": "active",
+  "warnings": [
+    "The recommended stencil openings on page 10 are absent from the current BP5S Q1/Q2 PCB footprints."
+  ]
+}

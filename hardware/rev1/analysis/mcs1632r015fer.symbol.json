@@ -1,0 +1,56 @@
+{
+  "kind": "component",
+  "name": "MCS1632R015FER",
+  "lcsc": "C2479052",
+  "reference": "R",
+  "description": "Ohmite 15 mOhm 1 W 1% 1206 current shunt, BOM R33 substitute; package differs from BOM 2010; JLCPCB C2479052",
+  "datasheet": "https://jlcpcb.com/partdetail/Ohmite-MCS1632R015FER/C2479052",
+  "footprint": "Resistor_SMD:R_1206_3216Metric",
+  "pins": [
+    {
+      "number": "1",
+      "name": "1",
+      "type": "passive",
+      "side": "left",
+      "at": [
+        0,
+        7.62,
+        270
+      ]
+    },
+    {
+      "number": "2",
+      "name": "2",
+      "type": "passive",
+      "side": "right",
+      "at": [
+        0,
+        -7.62,
+        90
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "kind": "rectangle",
+      "start": [
+        -1.27,
+        -2.54
+      ],
+      "end": [
+        1.27,
+        2.54
+      ],
+      "fill": "background"
+    }
+  ],
+  "hide_pin_names": true,
+  "reference_at": [
+    10.16,
+    5.08
+  ],
+  "value_at": [
+    22.86,
+    0
+  ]
+}

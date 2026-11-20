@@ -1,0 +1,896 @@
+{
+  "categories": [
+    "battery_protection_ic"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 48,
+          "section": "Package Option Addendum BQ7791500PWR orderable device"
+        }
+      ],
+      "family_members": [
+        "BQ7791500PWR"
+      ],
+      "package_variant": "PW TSSOP-24",
+      "requested_mpn": "BQ7791500PWR",
+      "status": "exact"
+    },
+    "manufacturer": "Texas Instruments",
+    "pages": 56,
+    "path": "BQ7791500PWR.pdf",
+    "sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d"
+  },
+  "extracted_at": "2026-10-08T17:09:30.480634+00:00",
+  "extractor_version": "manual-bp5s-1",
+  "family": "BQ77915",
+  "manufacturer": "Texas Instruments",
+  "missing": [
+    "Board-level trip thresholds depend on the sense resistor, resistor tolerance, thermistor network, and configured pin states.",
+    "No thermal test or pack fault-injection result is provided by this part datasheet."
+  ],
+  "mpn": "BQ7791500PWR",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "BQ7791500PWR"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Figure 7-1 PW Package 24-Pin TSSOP Top View"
+        }
+      ],
+      "exposed_pad": false,
+      "manufacturer_name": "PW TSSOP-24",
+      "pin_count": 24,
+      "thermal_pad": false
+    }
+  ],
+  "pins": [
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "VDD"
+      ],
+      "name": "VDD",
+      "numbers": [
+        "1"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "AVDD"
+      ],
+      "name": "AVDD",
+      "numbers": [
+        "2"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "VC5"
+      ],
+      "name": "VC5",
+      "numbers": [
+        "3"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "VC4"
+      ],
+      "name": "VC4",
+      "numbers": [
+        "4"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "VC3"
+      ],
+      "name": "VC3",
+      "numbers": [
+        "5"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "VC2"
+      ],
+      "name": "VC2",
+      "numbers": [
+        "6"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "VC1"
+      ],
+      "name": "VC1",
+      "numbers": [
+        "7"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "VC0"
+      ],
+      "name": "VC0",
+      "numbers": [
+        "8"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "VSS"
+      ],
+      "name": "VSS",
+      "numbers": [
+        "9"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "SRP"
+      ],
+      "name": "SRP",
+      "numbers": [
+        "10"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "SRN"
+      ],
+      "name": "SRN",
+      "numbers": [
+        "11"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "DSG"
+      ],
+      "name": "DSG",
+      "numbers": [
+        "12"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "CHG"
+      ],
+      "name": "CHG",
+      "numbers": [
+        "13"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "LD"
+      ],
+      "name": "LD",
+      "numbers": [
+        "14"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "LPWR"
+      ],
+      "name": "LPWR",
+      "numbers": [
+        "15"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "CBI"
+      ],
+      "name": "CBI",
+      "numbers": [
+        "16"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "OCDP"
+      ],
+      "name": "OCDP",
+      "numbers": [
+        "17"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "TS"
+      ],
+      "name": "TS",
+      "numbers": [
+        "18"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "VTB"
+      ],
+      "name": "VTB",
+      "numbers": [
+        "19"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "CCFG"
+      ],
+      "name": "CCFG",
+      "numbers": [
+        "20"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "CBO"
+      ],
+      "name": "CBO",
+      "numbers": [
+        "21"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "PRES"
+      ],
+      "name": "PRES",
+      "numbers": [
+        "22"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "CTRC"
+      ],
+      "name": "CTRC",
+      "numbers": [
+        "23"
+      ],
+      "type": "passive"
+    },
+    {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 4,
+          "section": "Table 7-1 Pin Functions"
+        }
+      ],
+      "functions": [
+        "CTRD"
+      ],
+      "name": "CTRD",
+      "numbers": [
+        "24"
+      ],
+      "type": "passive"
+    }
+  ],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 85,
+    "evidence": 90,
+    "identity": 95,
+    "overall": 85,
+    "pinout": 100
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 5,
+          "section": "8.3 Recommended Operating Conditions"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 25,
+      "min": 3,
+      "name": "supply_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 5,
+          "section": "8.3 Recommended Operating Conditions"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 5,
+      "min": 0,
+      "name": "cell_voltage_input",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 5,
+          "section": "8.3 Recommended Operating Conditions"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 85,
+      "min": -40,
+      "name": "operating_ambient_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 5,
+          "section": "8.1 Absolute Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 36,
+      "min": -0.3,
+      "name": "supply_absolute_maximum",
+      "unit": "V"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-1 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "cell_overvoltage_threshold",
+      "typ": 4200,
+      "unit": "mV"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-1 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "cell_undervoltage_threshold",
+      "typ": 2900,
+      "unit": "mV"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-1 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "overvoltage_delay",
+      "typ": 1,
+      "unit": "s"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-1 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "undervoltage_delay",
+      "typ": 1,
+      "unit": "s"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-1 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "overcurrent_discharge_1_threshold",
+      "typ": 60,
+      "unit": "mV"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-1 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "overcurrent_discharge_1_delay",
+      "typ": 180,
+      "unit": "ms"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-1 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "short_circuit_discharge_threshold",
+      "typ": 120,
+      "unit": "mV"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-1 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "short_circuit_discharge_delay",
+      "typ": 0.96,
+      "unit": "ms"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-1 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "overcurrent_charge_threshold",
+      "typ": 60,
+      "unit": "mV"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-2 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "overtemperature_discharge_target",
+      "typ": 65,
+      "unit": "degC"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-2 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "overtemperature_charge_target",
+      "typ": 45,
+      "unit": "degC"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-2 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "undertemperature_discharge_target",
+      "typ": -10,
+      "unit": "degC"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-2 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "undertemperature_charge_target",
+      "typ": 0,
+      "unit": "degC"
+    },
+    {
+      "classification": "typical_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 3,
+          "section": "Table 6-2 BQ7791500 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "cell_balance_start_voltage",
+      "typ": 3.8,
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 7,
+          "section": "8.5 Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 15,
+      "name": "normal_mode_supply_current",
+      "typ": 8,
+      "unit": "uA"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b4c3be4ca64c0bd08b725e53538382c59dcc25a5dc455ffb827b8216dd42930d",
+          "method": "table",
+          "page": 7,
+          "section": "8.5 Electrical Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 3,
+      "name": "hibernate_mode_supply_current",
+      "typ": 2,
+      "unit": "uA"
+    }
+  ],
+  "status": "active",
+  "warnings": [
+    "Table 6-2 temperature trip values are targets dependent on external components."
+  ]
+}

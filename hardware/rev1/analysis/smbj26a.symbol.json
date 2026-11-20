@@ -1,0 +1,25 @@
+{
+  "kind": "component",
+  "name": "SMBJ26A",
+  "reference": "D",
+  "lcsc": "C315992",
+  "description": "Littelfuse 26 V 600 W SMB unidirectional TVS, BOM D1 substitute",
+  "datasheet": "https://jlcpcb.com/partdetail/Littelfuse-SMBJ26A/C315992",
+  "footprint": "Diode_SMD:D_SMB",
+  "pins": [
+    {
+      "number": "1",
+      "name": "K",
+      "type": "passive",
+      "side": "left"
+    },
+    {
+      "number": "2",
+      "name": "A",
+      "type": "passive",
+      "side": "right"
+    }
+  ],
+  "body_width": 7.62,
+  "body_height": 5.08
+}

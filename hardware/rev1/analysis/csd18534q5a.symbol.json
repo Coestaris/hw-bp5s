@@ -1,0 +1,209 @@
+{
+  "kind": "component",
+  "name": "CSD18534Q5A",
+  "lcsc": "C115943",
+  "reference": "Q",
+  "description": "TI 60 V N-channel Q5A power MOSFET; JLCPCB C115943",
+  "datasheet": "https://www.ti.com/lit/ds/symlink/csd18534q5a.pdf",
+  "footprint": "BP5S:Texas_Q5A_CSD18534",
+  "pins": [
+    {
+      "number": "1",
+      "name": "S",
+      "type": "passive",
+      "side": "left",
+      "at": [
+        1.27,
+        -10.16,
+        90
+      ]
+    },
+    {
+      "number": "2",
+      "name": "S",
+      "type": "passive",
+      "side": "left",
+      "at": [
+        3.81,
+        -10.16,
+        90
+      ]
+    },
+    {
+      "number": "3",
+      "name": "S",
+      "type": "passive",
+      "side": "left",
+      "at": [
+        6.35,
+        -10.16,
+        90
+      ]
+    },
+    {
+      "number": "4",
+      "name": "G",
+      "type": "input",
+      "side": "left",
+      "at": [
+        -10.16,
+        0,
+        0
+      ]
+    },
+    {
+      "number": "5",
+      "name": "D",
+      "type": "passive",
+      "side": "right",
+      "at": [
+        0,
+        10.16,
+        270
+      ]
+    },
+    {
+      "number": "6",
+      "name": "D",
+      "type": "passive",
+      "side": "right",
+      "at": [
+        2.54,
+        10.16,
+        270
+      ]
+    },
+    {
+      "number": "7",
+      "name": "D",
+      "type": "passive",
+      "side": "right",
+      "at": [
+        5.08,
+        10.16,
+        270
+      ]
+    },
+    {
+      "number": "8",
+      "name": "D",
+      "type": "passive",
+      "side": "right",
+      "at": [
+        7.62,
+        10.16,
+        270
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "kind": "polyline",
+      "points": [
+        [
+          -5.08,
+          0
+        ],
+        [
+          -3.81,
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "polyline",
+      "points": [
+        [
+          -2.54,
+          2.54
+        ],
+        [
+          -2.54,
+          -2.54
+        ]
+      ]
+    },
+    {
+      "kind": "polyline",
+      "points": [
+        [
+          0,
+          2.54
+        ],
+        [
+          0,
+          -2.54
+        ]
+      ]
+    },
+    {
+      "kind": "polyline",
+      "points": [
+        [
+          0,
+          1.27
+        ],
+        [
+          3.81,
+          1.27
+        ],
+        [
+          3.81,
+          5.08
+        ]
+      ]
+    },
+    {
+      "kind": "polyline",
+      "points": [
+        [
+          0,
+          -1.27
+        ],
+        [
+          3.81,
+          -1.27
+        ],
+        [
+          3.81,
+          -5.08
+        ]
+      ]
+    },
+    {
+      "kind": "polyline",
+      "points": [
+        [
+          0,
+          5.08
+        ],
+        [
+          7.62,
+          5.08
+        ]
+      ]
+    },
+    {
+      "kind": "polyline",
+      "points": [
+        [
+          1.27,
+          -5.08
+        ],
+        [
+          6.35,
+          -5.08
+        ]
+      ]
+    }
+  ],
+  "hide_pin_names": true,
+  "reference_at": [
+    15.24,
+    3.81
+  ],
+  "value_at": [
+    25.4,
+    0
+  ]
+}

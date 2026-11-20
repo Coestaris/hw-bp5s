@@ -1,0 +1,1769 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(symbol
+		"BQ7791500PWR"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property
+			"Reference"
+			"U"
+			(at 0 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Value"
+			"BQ7791500PWR"
+			(at 0 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Footprint"
+			"Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Datasheet"
+			"https://www.ti.com/lit/ds/symlink/bq77915.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Description"
+			"TI standalone 3-5S battery protector, PW TSSOP-24; LCSC C2876946"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"LCSC"
+			"C2876946"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol
+			"BQ7791500PWR_0_1"
+			(rectangle
+				(start -21.59 -31.75)
+				(end 21.59 31.75)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol
+			"BQ7791500PWR_1_1"
+			(pin
+				power_in
+				line
+				(at -26.67 29.21 0)
+				(length 5.08)
+				(name
+					"VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 26.67 0)
+				(length 5.08)
+				(name
+					"VC5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 24.13 0)
+				(length 5.08)
+				(name
+					"VC4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 21.59 0)
+				(length 5.08)
+				(name
+					"VC3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 19.05 0)
+				(length 5.08)
+				(name
+					"VC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 16.509999999999998 0)
+				(length 5.08)
+				(name
+					"VC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 13.969999999999999 0)
+				(length 5.08)
+				(name
+					"VC0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 8.89 0)
+				(length 5.08)
+				(name
+					"SRP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 6.350000000000001 0)
+				(length 5.08)
+				(name
+					"SRN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 1.2699999999999996 0)
+				(length 5.08)
+				(name
+					"LD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 -1.2700000000000031 0)
+				(length 5.08)
+				(name
+					"TS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 -3.8100000000000023 0)
+				(length 5.08)
+				(name
+					"PRES"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 -8.89 0)
+				(length 5.08)
+				(name
+					"CBI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 -11.43 0)
+				(length 5.08)
+				(name
+					"OCDP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 -13.969999999999999 0)
+				(length 5.08)
+				(name
+					"CCFG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 -16.509999999999998 0)
+				(length 5.08)
+				(name
+					"CTRC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -26.67 -19.049999999999997 0)
+				(length 5.08)
+				(name
+					"CTRD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				power_out
+				line
+				(at 26.67 29.21 180)
+				(length 5.08)
+				(name
+					"AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				power_out
+				line
+				(at 26.67 26.67 180)
+				(length 5.08)
+				(name
+					"VTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				output
+				line
+				(at 26.67 21.59 180)
+				(length 5.08)
+				(name
+					"DSG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				output
+				line
+				(at 26.67 19.05 180)
+				(length 5.08)
+				(name
+					"CHG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				output
+				line
+				(at 26.67 16.509999999999998 180)
+				(length 5.08)
+				(name
+					"LPWR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				output
+				line
+				(at 26.67 13.969999999999999 180)
+				(length 5.08)
+				(name
+					"CBO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				power_in
+				line
+				(at 0.0 -36.83 90)
+				(length 5.08)
+				(name
+					"VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+
+	(symbol
+		"CSD18534Q5A"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property
+			"Reference"
+			"Q"
+			(at 15.24 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Value"
+			"CSD18534Q5A"
+			(at 25.4 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Footprint"
+			"BP5S:Texas_Q5A_CSD18534"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Datasheet"
+			"https://www.ti.com/lit/ds/symlink/csd18534q5a.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Description"
+			"TI 60 V N-channel Q5A power MOSFET; JLCPCB C115943"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"LCSC"
+			"C115943"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol
+			"CSD18534Q5A_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0)
+					(xy -3.81 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 2.54)
+					(xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54)
+					(xy 0 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27)
+					(xy 3.81 1.27)
+					(xy 3.81 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27)
+					(xy 3.81 -1.27)
+					(xy 3.81 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08)
+					(xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -5.08)
+					(xy 6.35 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol
+			"CSD18534Q5A_1_1"
+			(pin
+				passive
+				line
+				(at 1.27 -10.16 90)
+				(length 5.08)
+				(name
+					"S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 3.81 -10.16 90)
+				(length 5.08)
+				(name
+					"S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 6.35 -10.16 90)
+				(length 5.08)
+				(name
+					"S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				input
+				line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name
+					"G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 0 10.16 270)
+				(length 5.08)
+				(name
+					"D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 2.54 10.16 270)
+				(length 5.08)
+				(name
+					"D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 5.08 10.16 270)
+				(length 5.08)
+				(name
+					"D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 7.62 10.16 270)
+				(length 5.08)
+				(name
+					"D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		"WSLP2010R0150FEA"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property
+			"Reference"
+			"R"
+			(at 10.16 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Value"
+			"WSLP2010R0150FEA"
+			(at 22.86 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Footprint"
+			"Resistor_SMD:R_2010_5025Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Datasheet"
+			"https://jlcpcb.com/partdetail/VishayIntertech-WSLP2010R0150FEA/C4025149"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Description"
+			"Vishay 15 mOhm 2 W 1% 2010 shunt, BOM R33 footprint-compatible alternative; JLCPCB C4025149, absent from current assembly catalog"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"LCSC"
+			"C4025149"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol
+			"WSLP2010R0150FEA_0_1"
+			(rectangle
+				(start -1.27 -2.54)
+				(end 1.27 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol
+			"WSLP2010R0150FEA_1_1"
+			(pin
+				passive
+				line
+				(at 0 7.62 270)
+				(length 5.08)
+				(name
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 0 -7.62 90)
+				(length 5.08)
+				(name
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		"SMBJ26A"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property
+			"Reference"
+			"D"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Value"
+			"SMBJ26A"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Footprint"
+			"Diode_SMD:D_SMB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Datasheet"
+			"https://jlcpcb.com/partdetail/Littelfuse-SMBJ26A/C315992"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Description"
+			"Littelfuse 26 V 600 W SMB unidirectional TVS, BOM D1 substitute"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"LCSC"
+			"C315992"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol
+			"SMBJ26A_0_1"
+			(rectangle
+				(start -3.81 -2.54)
+				(end 3.81 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol
+			"SMBJ26A_1_1"
+			(pin
+				passive
+				line
+				(at -8.89 0.0 0)
+				(length 5.08)
+				(name
+					"K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 8.89 0.0 180)
+				(length 5.08)
+				(name
+					"A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		"BAS16J_135"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property
+			"Reference"
+			"D"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Value"
+			"BAS16J_135"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Footprint"
+			"Diode_SMD:D_SOD-323F"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Datasheet"
+			"https://assets.nexperia.com/documents/data-sheet/BAS16J.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Description"
+			"Nexperia BAS16J,135 100 V switching diode, BOM D2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"LCSC"
+			"C549198"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol
+			"BAS16J_135_0_1"
+			(rectangle
+				(start -3.81 -2.54)
+				(end 3.81 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol
+			"BAS16J_135_1_1"
+			(pin
+				passive
+				line
+				(at -8.89 0.0 0)
+				(length 5.08)
+				(name
+					"K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 8.89 0.0 180)
+				(length 5.08)
+				(name
+					"A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		"MMSZ5246BS"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property
+			"Reference"
+			"D"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Value"
+			"MMSZ5246BS"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Footprint"
+			"Diode_SMD:D_SOD-323"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Datasheet"
+			"https://jlcpcb.com/partdetail/MSKSEMI-MMSZ5246BS/C5277979"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Description"
+			"MSKSEMI 16 V 200 mW SOD-323 Zener, BOM D4 substitute; JLCPCB C5277979"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"LCSC"
+			"C5277979"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol
+			"MMSZ5246BS_0_1"
+			(rectangle
+				(start -3.81 -2.54)
+				(end 3.81 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol
+			"MMSZ5246BS_1_1"
+			(pin
+				passive
+				line
+				(at -8.89 0.0 0)
+				(length 5.08)
+				(name
+					"K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 8.89 0.0 180)
+				(length 5.08)
+				(name
+					"A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		"LED_26_21SURC_S530_A3_TR8"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property
+			"Reference"
+			"D"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Value"
+			"LED_26_21SURC_S530_A3_TR8"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Footprint"
+			"LED_SMD:LED_1206_3216Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Datasheet"
+			"https://jlcpcb.com/partdetail/EverlightElec-26_21SURC_S530_A3TR8/C110587"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Description"
+			"Everlight red 1206 20 mA indicator LED, BOM D5-D9 substitute; JLCPCB C110587"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"LCSC"
+			"C110587"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol
+			"LED_26_21SURC_S530_A3_TR8_0_1"
+			(rectangle
+				(start -3.81 -2.54)
+				(end 3.81 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol
+			"LED_26_21SURC_S530_A3_TR8_1_1"
+			(pin
+				passive
+				line
+				(at -8.89 0.0 0)
+				(length 5.08)
+				(name
+					"K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 8.89 0.0 180)
+				(length 5.08)
+				(name
+					"A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		"MCS1632R015FER"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property
+			"Reference"
+			"R"
+			(at 10.16 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Value"
+			"MCS1632R015FER"
+			(at 22.86 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property
+			"Footprint"
+			"Resistor_SMD:R_1206_3216Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Datasheet"
+			"https://jlcpcb.com/partdetail/Ohmite-MCS1632R015FER/C2479052"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"Description"
+			"Ohmite 15 mOhm 1 W 1% 1206 current shunt, BOM R33 substitute; package differs from BOM 2010; JLCPCB C2479052"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property
+			"LCSC"
+			"C2479052"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol
+			"MCS1632R015FER_0_1"
+			(rectangle
+				(start -1.27 -2.54)
+				(end 1.27 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol
+			"MCS1632R015FER_1_1"
+			(pin
+				passive
+				line
+				(at 0 7.62 270)
+				(length 5.08)
+				(name
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin
+				passive
+				line
+				(at 0 -7.62 90)
+				(length 5.08)
+				(name
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number
+					"2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	))

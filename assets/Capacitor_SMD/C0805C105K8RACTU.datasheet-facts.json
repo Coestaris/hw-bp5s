@@ -1,0 +1,200 @@
+{
+  "categories": [
+    "capacitor"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f",
+          "method": "table",
+          "page": 1,
+          "section": "Device or series identification"
+        }
+      ],
+      "family_members": [
+        "C0805C105K8RACTU"
+      ],
+      "package_variant": "0805 (2012 metric)",
+      "requested_mpn": "C0805C105K8RACTU",
+      "status": "family"
+    },
+    "manufacturer": "KEMET",
+    "pages": 26,
+    "path": "C0805C105K8RACTU.pdf",
+    "sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f"
+  },
+  "extracted_at": "2026-10-08T17:06:48.106757+00:00",
+  "extractor_version": "manual-bp5s-1",
+  "family": "C1002 X7R SMD",
+  "manufacturer": "KEMET",
+  "missing": [
+    "The manufacturer does not number the two symmetric capacitor terminals.",
+    "Part-specific DC-bias loss, ESR, ESL, ripple current, and a simulation model are not provided as guaranteed numeric values."
+  ],
+  "mpn": "C0805C105K8RACTU",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "C0805C105K8RACTU"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f",
+          "method": "table",
+          "page": 3,
+          "section": "Package outline"
+        }
+      ],
+      "exposed_pad": false,
+      "manufacturer_name": "0805 (2012 metric)",
+      "pin_count": 2,
+      "thermal_pad": false
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 90,
+    "identity": 90,
+    "overall": 80,
+    "pinout": 50
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f",
+          "method": "table",
+          "page": 2,
+          "section": "Ordering Information"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "capacitance",
+      "typ": 1e-06,
+      "unit": "F"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f",
+          "method": "table",
+          "page": 2,
+          "section": "Ordering Information"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 10,
+      "min": -10,
+      "name": "capacitance_tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f",
+          "method": "table",
+          "page": 2,
+          "section": "Ordering Information"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 10,
+      "name": "rated_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f",
+          "method": "table",
+          "page": 1,
+          "section": "X7R dielectric description"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 125,
+      "min": -55,
+      "name": "operating_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f",
+          "method": "table",
+          "page": 1,
+          "section": "X7R dielectric description"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 15,
+      "min": -15,
+      "name": "temperature_coefficient",
+      "unit": "percent"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f",
+          "method": "table",
+          "page": 3,
+          "section": "Dimensions 0805 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "body_length",
+      "typ": 2.0,
+      "unit": "mm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "68ff24d50f5fa474c61c3150962bdd8ef715a177488f1d274b1aa05f0037111f",
+          "method": "table",
+          "page": 3,
+          "section": "Dimensions 0805 row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "body_width",
+      "typ": 1.25,
+      "unit": "mm"
+    }
+  ],
+  "status": "active",
+  "warnings": []
+}

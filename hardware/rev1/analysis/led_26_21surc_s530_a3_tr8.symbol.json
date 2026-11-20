@@ -1,0 +1,25 @@
+{
+  "kind": "component",
+  "name": "LED_26_21SURC_S530_A3_TR8",
+  "reference": "D",
+  "lcsc": "C110587",
+  "description": "Everlight red 1206 20 mA indicator LED, BOM D5-D9 substitute; JLCPCB C110587",
+  "datasheet": "https://jlcpcb.com/partdetail/EverlightElec-26_21SURC_S530_A3TR8/C110587",
+  "footprint": "LED_SMD:LED_1206_3216Metric",
+  "pins": [
+    {
+      "number": "1",
+      "name": "K",
+      "type": "passive",
+      "side": "left"
+    },
+    {
+      "number": "2",
+      "name": "A",
+      "type": "passive",
+      "side": "right"
+    }
+  ],
+  "body_width": 7.62,
+  "body_height": 5.08
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "suppressions": [
+    {
+      "id": "bp5s-back-silkscreen-edge-tolerance",
+      "tool": "drc",
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "description": "Silkscreen clipped by board edge",
+      "item_description_contains": "on b.Silkscreen",
+      "rationale": "Approved for B.SilkS artwork at this board outline while fitting the graphics; other layers and DRC findings remain visible."
+    }
+  ]
+}

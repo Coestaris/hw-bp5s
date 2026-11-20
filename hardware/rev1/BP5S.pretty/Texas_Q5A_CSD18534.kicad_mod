@@ -1,0 +1,368 @@
+(footprint
+	"Texas_Q5A_CSD18534"
+	(version 20241229)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(descr "TI CSD18534Q5A Q5A 5x6 mm recommended PCB pattern; datasheet p.9")
+	(attr smd)
+	(property
+		"Reference"
+		"REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property
+		"Value"
+		"Texas_Q5A_CSD18534"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3 -2.5)
+		(end 3 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 3 -2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 3 2.5)
+		(end -3 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end -3 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -3.5 -2.8)
+		(end 3.5 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.5 -2.8)
+		(end 3.5 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.5 2.8)
+		(end -3.5 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.5 2.8)
+		(end -3.5 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_rect
+		(start -3.05 -2.155)
+		(end -2.55 -1.655)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start 2.5 -2.155)
+		(end 3 -1.655)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start -3.05 -0.885)
+		(end -2.55 -0.385)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start 2.5 -0.885)
+		(end 3 -0.385)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start -3.05 0.385)
+		(end -2.55 0.885)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start 2.5 0.385)
+		(end 3 0.885)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start -3.05 1.655)
+		(end -2.55 2.155)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start 2.5 1.655)
+		(end 3 2.155)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start -2.2 -1.88)
+		(end -0.615 -0.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start -0.115 -1.88)
+		(end 1.12 -0.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start -2.2 0.31)
+		(end -0.615 1.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start -0.115 0.31)
+		(end 1.12 1.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+	)
+	(pad
+		"1"
+		smd
+		rect
+		(at 2.7525 1.905)
+		(size 0.75 0.675)
+		(layers "F.Cu" "F.Mask")
+	)
+	(pad
+		"2"
+		smd
+		rect
+		(at 2.7525 0.635)
+		(size 0.75 0.675)
+		(layers "F.Cu" "F.Mask")
+	)
+	(pad
+		"3"
+		smd
+		rect
+		(at 2.7525 -0.635)
+		(size 0.75 0.675)
+		(layers "F.Cu" "F.Mask")
+	)
+	(pad
+		"4"
+		smd
+		rect
+		(at 2.7525 -1.905)
+		(size 0.75 0.675)
+		(layers "F.Cu" "F.Mask")
+	)
+	(pad
+		"5"
+		smd
+		custom
+		(at -0.325 -1.69125)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.1475 -0.56375)
+					(xy 2.1475 -0.56375)
+					(xy 2.1475 0.56375)
+					(xy -2.1475 0.56375)
+					(xy -2.1475 0.12375)
+					(xy -2.8025 0.12375)
+					(xy -2.8025 -0.55125)
+					(xy -2.1475 -0.55125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad
+		"6"
+		smd
+		custom
+		(at -0.325 -0.56375)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.1475 -0.56375)
+					(xy 2.1475 -0.56375)
+					(xy 2.1475 0.56375)
+					(xy -2.1475 0.56375)
+					(xy -2.1475 0.26625)
+					(xy -2.8025 0.26625)
+					(xy -2.8025 -0.40875)
+					(xy -2.1475 -0.40875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad
+		"7"
+		smd
+		custom
+		(at -0.325 0.56375)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.1475 -0.56375)
+					(xy 2.1475 -0.56375)
+					(xy 2.1475 0.56375)
+					(xy -2.1475 0.56375)
+					(xy -2.1475 0.40875)
+					(xy -2.8025 0.40875)
+					(xy -2.8025 -0.26625)
+					(xy -2.1475 -0.26625)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad
+		"8"
+		smd
+		custom
+		(at -0.325 1.69125)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -2.1475 -0.56375)
+					(xy 2.1475 -0.56375)
+					(xy 2.1475 0.56375)
+					(xy -2.1475 0.56375)
+					(xy -2.1475 0.55125)
+					(xy -2.8025 0.55125)
+					(xy -2.8025 -0.12375)
+					(xy -2.1475 -0.12375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+)

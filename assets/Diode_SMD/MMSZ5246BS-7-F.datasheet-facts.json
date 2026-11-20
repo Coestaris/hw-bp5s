@@ -1,0 +1,294 @@
+{
+  "categories": [
+    "diode"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "prose",
+          "page": 1,
+          "section": "Ordering Information, Type Number -7-F"
+        },
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics MMSZ5246BS row"
+        }
+      ],
+      "family_members": [
+        "MMSZ5246BS",
+        "MMSZ5246BS-7-F"
+      ],
+      "package_variant": "SOD-323",
+      "requested_mpn": "MMSZ5246BS-7-F",
+      "status": "exact"
+    },
+    "manufacturer": "Diodes Incorporated",
+    "pages": 5,
+    "path": "MMSZ5246BS-7-F.pdf",
+    "sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47"
+  },
+  "extracted_at": "2026-10-09T14:45:14.996870+00:00",
+  "extractor_version": "manual-bp5s-diode-1",
+  "family": "MMSZ5221BS-MMSZ5259BS",
+  "manufacturer": "Diodes Incorporated",
+  "missing": [
+    "The manufacturer specifies a cathode band but does not assign numeric terminal or footprint pad numbers in this datasheet.",
+    "No continuous forward-current rating, surge-current waveform limit, junction capacitance, or reverse-recovery specification is published for this Zener family.",
+    "No guaranteed Zener temperature coefficient, pulse-energy rating, clamping waveform rating, or simulation model is published in this datasheet."
+  ],
+  "mpn": "MMSZ5246BS-7-F",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "MMSZ5246BS-7-F"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "prose",
+          "page": 1,
+          "section": "Mechanical Data and Polarity"
+        },
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "prose",
+          "page": 4,
+          "section": "Package Outline Dimensions"
+        }
+      ],
+      "exposed_pad": false,
+      "manufacturer_name": "SOD-323",
+      "pin_count": 2,
+      "thermal_pad": false
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 90,
+    "category_specs": 85,
+    "evidence": 95,
+    "identity": 95,
+    "overall": 85,
+    "pinout": 65
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "zener_current",
+          "unit": "mA",
+          "value": 7.8
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics MMSZ5246BS row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 16.8,
+      "min": 15.2,
+      "name": "zener_voltage",
+      "typ": 16,
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics MMSZ5246BS row"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "zener_test_current",
+      "typ": 7.8,
+      "unit": "mA"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "zener_current",
+          "unit": "mA",
+          "value": 7.8
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics MMSZ5246BS row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 17,
+      "name": "zener_impedance",
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "zener_current",
+          "unit": "mA",
+          "value": 0.25
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics MMSZ5246BS row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 600,
+      "name": "zener_knee_impedance",
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "reverse_voltage",
+          "unit": "V",
+          "value": 12
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Electrical Characteristics MMSZ5246BS row"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.1,
+      "name": "reverse_leakage",
+      "unit": "uA"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 25
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Thermal Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 200,
+      "name": "power_dissipation",
+      "unit": "mW"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "forward_current",
+          "unit": "mA",
+          "value": 10
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Maximum Ratings"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 0.9,
+      "name": "forward_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Thermal Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 150,
+      "min": -65,
+      "name": "junction_temperature",
+      "unit": "degC"
+    },
+    {
+      "classification": "thermal_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "16d7043292f7e69c8630f7b421df1ce47fd4bd644ae0a65a0852d055124a6f47",
+          "method": "table",
+          "page": 2,
+          "section": "Thermal Characteristics"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "thermal_resistance_junction_ambient",
+      "typ": 625,
+      "unit": "degC/W"
+    }
+  ],
+  "status": "active",
+  "warnings": []
+}

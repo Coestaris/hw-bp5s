@@ -1,0 +1,56 @@
+{
+  "kind": "component",
+  "name": "WSLP2010R0150FEA",
+  "lcsc": "C4025149",
+  "reference": "R",
+  "description": "Vishay 15 mOhm 2 W 1% 2010 shunt, BOM R33 footprint-compatible alternative; JLCPCB C4025149, absent from current assembly catalog",
+  "datasheet": "https://jlcpcb.com/partdetail/VishayIntertech-WSLP2010R0150FEA/C4025149",
+  "footprint": "Resistor_SMD:R_2010_5025Metric",
+  "pins": [
+    {
+      "number": "1",
+      "name": "1",
+      "type": "passive",
+      "side": "left",
+      "at": [
+        0,
+        7.62,
+        270
+      ]
+    },
+    {
+      "number": "2",
+      "name": "2",
+      "type": "passive",
+      "side": "right",
+      "at": [
+        0,
+        -7.62,
+        90
+      ]
+    }
+  ],
+  "graphics": [
+    {
+      "kind": "rectangle",
+      "start": [
+        -1.27,
+        -2.54
+      ],
+      "end": [
+        1.27,
+        2.54
+      ],
+      "fill": "background"
+    }
+  ],
+  "hide_pin_names": true,
+  "reference_at": [
+    10.16,
+    5.08
+  ],
+  "value_at": [
+    22.86,
+    0
+  ]
+}

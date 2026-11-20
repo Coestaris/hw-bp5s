@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+
+	(lib
+		(name "BP5S")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/BP5S.kicad_sym")
+		(options "")
+		(descr "")
+	))

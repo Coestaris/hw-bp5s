@@ -1,0 +1,205 @@
+{
+  "categories": [
+    "resistor"
+  ],
+  "document": {
+    "identity": {
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47",
+          "method": "table",
+          "page": 1,
+          "section": "Device or series identification"
+        }
+      ],
+      "family_members": [
+        "CSRN2010FT10L0"
+      ],
+      "package_variant": "CSRN2010",
+      "requested_mpn": "CSRN2010FT10L0",
+      "status": "family"
+    },
+    "manufacturer": "Stackpole Electronics",
+    "pages": 6,
+    "path": "CSRN2010FT10L0.pdf",
+    "sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47"
+  },
+  "extracted_at": "2026-10-08T17:05:44.904893+00:00",
+  "extractor_version": "manual-bp5s-1",
+  "family": "CSR/CSRN",
+  "manufacturer": "Stackpole Electronics",
+  "missing": [
+    "The manufacturer does not number the two symmetric resistor terminals.",
+    "No pulse-energy limit, numeric parasitic-inductance guarantee, or simulation model is identified."
+  ],
+  "mpn": "CSRN2010FT10L0",
+  "packages": [
+    {
+      "applicable_mpns": [
+        "CSRN2010FT10L0"
+      ],
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47",
+          "method": "table",
+          "page": 2,
+          "section": "Package outline"
+        }
+      ],
+      "exposed_pad": false,
+      "manufacturer_name": "CSRN2010",
+      "pin_count": 2,
+      "thermal_pad": false
+    }
+  ],
+  "pins": [],
+  "quality": {
+    "base_specs": 85,
+    "category_specs": 80,
+    "evidence": 90,
+    "identity": 90,
+    "overall": 80,
+    "pinout": 50
+  },
+  "schema_version": 1,
+  "specs": [
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47",
+          "method": "table",
+          "page": 6,
+          "section": "How to Order"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "nominal_resistance",
+      "typ": 0.01,
+      "unit": "ohm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47",
+          "method": "table",
+          "page": 6,
+          "section": "How to Order"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1,
+      "min": -1,
+      "name": "resistance_tolerance",
+      "unit": "percent"
+    },
+    {
+      "classification": "recommended_operating_condition",
+      "conditions": [
+        {
+          "operator": "=",
+          "parameter": "ambient_temperature",
+          "unit": "degC",
+          "value": 70
+        }
+      ],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47",
+          "method": "table",
+          "page": 1,
+          "section": "Electrical Specifications CSRN"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 1,
+      "name": "rated_power",
+      "unit": "W"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47",
+          "method": "table",
+          "page": 1,
+          "section": "Electrical Specifications CSRN"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 250,
+      "name": "temperature_coefficient_magnitude",
+      "unit": "ppm/degC"
+    },
+    {
+      "classification": "absolute_maximum",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47",
+          "method": "table",
+          "page": 1,
+          "section": "Electrical Specifications CSRN"
+        }
+      ],
+      "fact_kind": "fact",
+      "max": 200,
+      "name": "dielectric_withstand_voltage",
+      "unit": "V"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47",
+          "method": "table",
+          "page": 2,
+          "section": "Dimensions CSRN2010"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "body_length",
+      "typ": 5.0,
+      "unit": "mm"
+    },
+    {
+      "classification": "guaranteed_electrical_characteristic",
+      "conditions": [],
+      "confidence": "high",
+      "evidence": [
+        {
+          "confidence": "high",
+          "document_sha256": "b44f6fae409aafd3e10de26f252c1d05c0936572f33b78f347e2d70e47f17a47",
+          "method": "table",
+          "page": 2,
+          "section": "Dimensions CSRN2010"
+        }
+      ],
+      "fact_kind": "fact",
+      "name": "body_width",
+      "typ": 2.44,
+      "unit": "mm"
+    }
+  ],
+  "status": "active",
+  "warnings": []
+}

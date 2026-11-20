@@ -1,0 +1,25 @@
+{
+  "kind": "component",
+  "name": "BAS16J_135",
+  "reference": "D",
+  "lcsc": "C549198",
+  "description": "Nexperia BAS16J,135 100 V switching diode, BOM D2",
+  "datasheet": "https://assets.nexperia.com/documents/data-sheet/BAS16J.pdf",
+  "footprint": "Diode_SMD:D_SOD-323F",
+  "pins": [
+    {
+      "number": "1",
+      "name": "K",
+      "type": "passive",
+      "side": "left"
+    },
+    {
+      "number": "2",
+      "name": "A",
+      "type": "passive",
+      "side": "right"
+    }
+  ],
+  "body_width": 7.62,
+  "body_height": 5.08
+}

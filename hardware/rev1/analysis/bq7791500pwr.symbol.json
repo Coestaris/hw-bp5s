@@ -1,0 +1,180 @@
+{
+  "kind": "component",
+  "name": "BQ7791500PWR",
+  "lcsc": "C2876946",
+  "reference": "U",
+  "description": "TI standalone 3-5S battery protector, PW TSSOP-24; LCSC C2876946",
+  "datasheet": "https://www.ti.com/lit/ds/symlink/bq77915.pdf",
+  "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+  "pins": [
+    {
+      "number": "1",
+      "name": "VDD",
+      "type": "power_in",
+      "side": "left",
+      "slot": 0
+    },
+    {
+      "number": "3",
+      "name": "VC5",
+      "type": "input",
+      "side": "left",
+      "slot": 1
+    },
+    {
+      "number": "4",
+      "name": "VC4",
+      "type": "input",
+      "side": "left",
+      "slot": 2
+    },
+    {
+      "number": "5",
+      "name": "VC3",
+      "type": "input",
+      "side": "left",
+      "slot": 3
+    },
+    {
+      "number": "6",
+      "name": "VC2",
+      "type": "input",
+      "side": "left",
+      "slot": 4
+    },
+    {
+      "number": "7",
+      "name": "VC1",
+      "type": "input",
+      "side": "left",
+      "slot": 5
+    },
+    {
+      "number": "8",
+      "name": "VC0",
+      "type": "input",
+      "side": "left",
+      "slot": 6
+    },
+    {
+      "number": "10",
+      "name": "SRP",
+      "type": "input",
+      "side": "left",
+      "slot": 8
+    },
+    {
+      "number": "11",
+      "name": "SRN",
+      "type": "input",
+      "side": "left",
+      "slot": 9
+    },
+    {
+      "number": "14",
+      "name": "LD",
+      "type": "input",
+      "side": "left",
+      "slot": 11
+    },
+    {
+      "number": "18",
+      "name": "TS",
+      "type": "input",
+      "side": "left",
+      "slot": 12
+    },
+    {
+      "number": "22",
+      "name": "PRES",
+      "type": "input",
+      "side": "left",
+      "slot": 13
+    },
+    {
+      "number": "16",
+      "name": "CBI",
+      "type": "input",
+      "side": "left",
+      "slot": 15
+    },
+    {
+      "number": "17",
+      "name": "OCDP",
+      "type": "input",
+      "side": "left",
+      "slot": 16
+    },
+    {
+      "number": "20",
+      "name": "CCFG",
+      "type": "input",
+      "side": "left",
+      "slot": 17
+    },
+    {
+      "number": "23",
+      "name": "CTRC",
+      "type": "input",
+      "side": "left",
+      "slot": 18
+    },
+    {
+      "number": "24",
+      "name": "CTRD",
+      "type": "input",
+      "side": "left",
+      "slot": 19
+    },
+    {
+      "number": "2",
+      "name": "AVDD",
+      "type": "power_out",
+      "side": "right",
+      "slot": 0
+    },
+    {
+      "number": "19",
+      "name": "VTB",
+      "type": "power_out",
+      "side": "right",
+      "slot": 1
+    },
+    {
+      "number": "12",
+      "name": "DSG",
+      "type": "output",
+      "side": "right",
+      "slot": 3
+    },
+    {
+      "number": "13",
+      "name": "CHG",
+      "type": "output",
+      "side": "right",
+      "slot": 4
+    },
+    {
+      "number": "15",
+      "name": "LPWR",
+      "type": "output",
+      "side": "right",
+      "slot": 5
+    },
+    {
+      "number": "21",
+      "name": "CBO",
+      "type": "output",
+      "side": "right",
+      "slot": 6
+    },
+    {
+      "number": "9",
+      "name": "VSS",
+      "type": "power_in",
+      "side": "bottom"
+    }
+  ],
+  "body_width": 43.18,
+  "body_height": 63.5
+}
