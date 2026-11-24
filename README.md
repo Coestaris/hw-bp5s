@@ -2,7 +2,7 @@
 
 Rev1 has been manufactured. BP5S provides a dedicated protection board for a five-series-cell battery pack.
 
-> **AI use.** The authors use AI for component research, design validation, and release preparation. The authors make the technical and visual decisions and take responsibility for them.
+> **AI use.** The authors use AI for additional validation, component research, testbench setup and simulation, intermediate design reviews, release setup, and assistance with KiCad and 3D model edits. The authors developed the original designs and schematics manually, and other people reviewed them. The authors make the technical and visual decisions and take responsibility for them.
 
 ## Goals and architecture
 
