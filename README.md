@@ -1,6 +1,8 @@
 # BP5S — five-cell battery protector
 
-Manufactured hardware, revision 1. BP5S provides a dedicated protection board for a five-series-cell battery pack.
+Rev1 has been manufactured. BP5S provides a dedicated protection board for a five-series-cell battery pack.
+
+> **AI use.** The authors use AI for component research, design validation, and release preparation. The authors make the technical and visual decisions and take responsibility for them.
 
 ## Goals and architecture
 
@@ -14,21 +16,15 @@ flowchart LR
   Cells --> Switches --> Pack[Pack connector]
 ```
 
-## Design files
+## Hardware projects
 
-- [KiCad 10 project](hardware/rev1/bp5s.kicad_pro), [schematic](hardware/rev1/bp5s.kicad_sch), and [PCB](hardware/rev1/bp5s.kicad_pcb)
-- [Bench test plan](hardware/rev1/test-plan.html)
-- Project-owned component models, datasheets, and review evidence in [assets](assets/)
+| Board | Purpose | Design | Simulation |
+| --- | --- | --- | --- |
+| rev1 | Five-cell pack protection | [KiCad project](hardware/rev1/bp5s.kicad_pro), [bench test plan](hardware/rev1/test-plan.html) | — |
 
-## Working with the design
+### rev1 - five-cell pack protection
 
-Clone this repository and run `git lfs pull` before opening the KiCad project. The native design and its required assets are included here. Maintainer automation uses the pinned private `infra` submodule.
-
-## Board renders and releases
-
-### Rev1
-
-[Published rev1 release](https://github.com/Coestaris/hw-bp5s/releases/tag/rev1). The release workflow passed the complete gate and manufacturing export.
+Rev1 monitors a five-series-cell stack and controls the pack connection through a pair of power MOSFETs. [Rev1 release](https://github.com/Coestaris/hw-bp5s/releases/tag/rev1)
 
 ![Rev1 board, perspective view](https://github.com/Coestaris/hw-bp5s/releases/download/rev1/bp5s-3d-corner.png)
 
